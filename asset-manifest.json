@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/csblab/static/css/main.e6c13ad2.css",
-    "main.js": "/csblab/static/js/main.81a4c6c2.js",
+    "main.js": "/csblab/static/js/main.f83bf207.js",
     "static/js/453.125c8608.chunk.js": "/csblab/static/js/453.125c8608.chunk.js",
     "static/media/logo.svg": "/csblab/static/media/logo.5cbc4d0bb18f3d8d2052543aa96a2706.svg",
     "index.html": "/csblab/index.html",
     "main.e6c13ad2.css.map": "/csblab/static/css/main.e6c13ad2.css.map",
-    "main.81a4c6c2.js.map": "/csblab/static/js/main.81a4c6c2.js.map",
+    "main.f83bf207.js.map": "/csblab/static/js/main.f83bf207.js.map",
     "453.125c8608.chunk.js.map": "/csblab/static/js/453.125c8608.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.81a4c6c2.js"
+    "static/js/main.f83bf207.js"
   ]
 }
