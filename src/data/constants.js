@@ -69,6 +69,7 @@ export const RESEARCH_THEMES = [
     desc: "We integrate transcriptomic, proteomic, and interaction data across organisms — from SARS-CoV-2 to inflammatory skin disease to rhizosphere bacteria — using machine learning, dynamic modeling, and network frameworks to uncover shared regulatory logic and prioritize targets that no single data type reveals alone.",
     color: "#84cc16",
     articles: [
+      { title: "Multi-Omics Integration Predicts Cell-Specific Gene Regulatory Response and Rhizosphere Dynamics in Maize Root Fertilizer Treatment", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.08.16.744839", url: "https://doi.org/10.64898/2026.08.16.744839" },
       { title: "Chronic Inorganic Fertilization Shifts Evolutionary Trajectories and Induces a Regulatory Shield in Maize Rhizosphere Bacteria", journal: "Preprint", year: "2026", doi: "10.64898/2026.06.04.729967", url: "https://doi.org/10.64898/2026.06.04.729967" },
       { title: "Integrative systems biology framework discovers common gene regulatory signatures in mechanistically distinct inflammatory skin diseases", journal: "npj Syst Biol Appl", year: "2025", doi: "10.1038/s41540-025-00498-x", url: "https://doi.org/10.1038/s41540-025-00498-x" },
       { title: "Transcriptional circuitry atlas of genetic diverse unstimulated murine and human macrophages define disparity in population-wide innate immunity", journal: "Scientific Reports", year: "2021", doi: "10.1038/s41598-021-86742-w", url: "https://doi.org/10.1038/s41598-021-86742-w" },
@@ -122,6 +123,7 @@ export const DETAILED_RESEARCH_THEMES = [
     pillar: "Multi-omics and AI-Enabled Systems Biology",
     color: "#a3e635",
     articles: [
+      { title: "Multi-Omics Integration Predicts Cell-Specific Gene Regulatory Response and Rhizosphere Dynamics in Maize Root Fertilizer Treatment", journal: "bioRxiv", year: "2026", url: "https://doi.org/10.64898/2026.08.16.744839" },
       { title: "Chronic Inorganic Fertilization Shifts Evolutionary Trajectories and Induces a Regulatory Shield in Maize Rhizosphere Bacteria", journal: "Preprint", year: "2026", url: "https://doi.org/10.64898/2026.06.04.729967" },
       { title: "Oxidative stress facilitates a diverse adaptive response in bacteria", journal: "bioRxiv", year: "2025", url: "https://doi.org/10.1101/2025.10.09.681464" },
     ],
