@@ -45,6 +45,7 @@ export const RESEARCH_THEMES = [
     desc: "We build multi-context gene regulatory and protein interaction networks for plants — from Arabidopsis to non-model crops — tackling the core gap that no ENCODE-scale regulatory map exists outside Arabidopsis. Our iDREM dynamic modeling, network centrality, and pySCENIC-based inference toolkit directly address species-specific regulatory inference from sparse data.",
     color: "#4ade80",
     articles: [
+      { title: "Multi-Omics Integration Predicts Cell-Specific Gene Regulatory Response and Rhizosphere Dynamics in Maize Root Fertilizer Treatment", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.08.16.744839", url: "https://doi.org/10.64898/2026.08.16.744839" },
       { title: "Integrative Omics and Network Biology Reveal Transcriptional Changes of Amino Acid Transport in Arabidopsis Susceptibility to Pseudomonas syringae", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.03.25.714176", url: "https://doi.org/10.64898/2026.03.25.714176" },
       { title: "Network Biology Analyses and Dynamic Modeling of Gene Regulatory Networks Under Drought Stress Reveal Major Transcriptional Regulators in Arabidopsis", journal: "Int. J. Mol. Sci.", year: "2023", doi: "10.3390/ijms24087349", url: "https://doi.org/10.3390/ijms24087349" },
       { title: "A rice protein interaction network reveals high centrality nodes and candidate pathogen effector targets", journal: "Computational and Structural Biotechnology Journal", year: "2022", doi: "10.1016/j.csbj.2022.04.027", url: "https://doi.org/10.1016/j.csbj.2022.04.027" },
@@ -87,6 +88,7 @@ export const DETAILED_RESEARCH_THEMES = [
     pillar: "Plant Regulatory Genomics",
     color: "#4ade80",
     articles: [
+      { title: "Multi-Omics Integration Predicts Cell-Specific Gene Regulatory Response and Rhizosphere Dynamics in Maize Root Fertilizer Treatment", journal: "bioRxiv", year: "2026", url: "https://doi.org/10.64898/2026.08.16.744839" },
       { title: "Network Biology Analyses and Dynamic Modeling of Gene Regulatory Networks Under Drought Stress Reveal Major Transcriptional Regulators in Arabidopsis", journal: "Int. J. Mol. Sci.", year: "2023", url: "https://doi.org/10.3390/ijms24087349" },
       { title: "Dynamic modeling of transcriptional gene regulatory network uncovers distinct pathways during the onset of Arabidopsis leaf senescence", journal: "npj Syst Biol Appl", year: "2018", url: "https://doi.org/10.1038/s41540-018-0071-2" },
       { title: "Global temporal dynamic landscape of pathogen-mediated subversion of Arabidopsis innate immunity", journal: "Scientific Reports", year: "2017", url: "https://doi.org/10.1038/s41598-017-08073-z" },
