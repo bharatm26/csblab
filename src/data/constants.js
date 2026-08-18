@@ -33,9 +33,9 @@ export const PUBLICATIONS = [
 
 export const STATS = [
   { val: 26, suffix: "", label: "Publications" },
-  { val: 840, suffix: "", label: "Citations" },
+  { val: 883, suffix: "", label: "Citations" },
   { val: 14, suffix: "", label: "h-index" },
-  { val: 18, suffix: "", label: "i10-index" },
+  { val: 19, suffix: "", label: "i10-index" },
 ];
 
 export const RESEARCH_THEMES = [
