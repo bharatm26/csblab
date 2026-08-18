@@ -43,6 +43,7 @@ export const RESEARCH_THEMES = [
     title: "Plant Regulatory Genomics",
     desc: "We reconstruct gene regulatory networks from bulk transcriptomics, single-cell RNA-seq, scATAC-seq, and proteomics to identify master transcription factors governing stress responses. Using dynamic modeling, centrality-based prioritization (including weighted k-shell decomposition), and in silico perturbation, we identify causal regulators and predict the consequences of their loss.",
     color: "#4ade80",
+    image: `${process.env.PUBLIC_URL}/GRN.png`,
     articles: [
       { title: "Multi-Omics Integration Predicts Cell-Specific Gene Regulatory Response and Rhizosphere Dynamics in Maize Root Fertilizer Treatment", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.08.16.744839", url: "https://doi.org/10.64898/2026.08.16.744839" },
       { title: "Integrative Omics and Network Biology Reveal Transcriptional Changes of Amino Acid Transport in Arabidopsis Susceptibility to Pseudomonas syringae", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.03.25.714176", url: "https://doi.org/10.64898/2026.03.25.714176" },
@@ -57,6 +58,7 @@ export const RESEARCH_THEMES = [
     title: "Single-Cell and Spatial Genomics",
     desc: "We want to revolutionize the single-cell and spatial genomics to plant and crop systems by leveraging existing resources and developing new tools, frameworks, and resources to better serve the Plant Biology community. We are developing CAMBIUM (in development) — a modular framework for plant single-cell GRN analysis, orthology mapping, regulon transfer, cross-species integration, in silico perturbation, and cell-cell communication.",
     color: "#86efac",
+    image: `${process.env.PUBLIC_URL}/SCRNA.png`,
     articles: [
       { title: "Integrative Omics and Network Biology Reveal Transcriptional Changes of Amino Acid Transport in Arabidopsis Susceptibility to Pseudomonas syringae", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.03.25.714176", url: "https://doi.org/10.64898/2026.03.25.714176" },
       { title: "CD2 expressing innate lymphoid and T cells are critical effectors of immunopathogenesis in hidradenitis suppurativa", journal: "PNAS", year: "2024", doi: "10.1073/pnas.2409274121", url: "https://doi.org/10.1073/pnas.2409274121" },
@@ -68,8 +70,8 @@ export const RESEARCH_THEMES = [
     title: "Multi-omics and AI-Enabled Systems Biology",
     desc: "We integrate multiomics data using machine learning, dynamic modeling, and network frameworks across organisms from microbes, plants, and animals to uncover the hidden pattern and emergent properties for biological resilience. A core feature of our framework is its generalizability across species and kingdoms. We have applied the same network biology to discover conserved gene regulatory signatures in human inflammatory skin diseases, identify CD2-expressing innate lymphoid cells as major effectors, characterize SARS-CoV-2 pathogenesis and Plant Immunity, Aging, and Stress.",
     color: "#84cc16",
-    articles: [
-      { title: "Multi-Omics Integration Predicts Cell-Specific Gene Regulatory Response and Rhizosphere Dynamics in Maize Root Fertilizer Treatment", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.08.16.744839", url: "https://doi.org/10.64898/2026.08.16.744839" },
+    image: `${process.env.PUBLIC_URL}/Multiomics.png`,
+    articles: [ Predicts Cell-Specific Gene Regulatory Response and Rhizosphere Dynamics in Maize Root Fertilizer Treatment", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.08.16.744839", url: "https://doi.org/10.64898/2026.08.16.744839" },
       { title: "Chronic Inorganic Fertilization Shifts Evolutionary Trajectories and Induces a Regulatory Shield in Maize Rhizosphere Bacteria", journal: "Preprint", year: "2026", doi: "10.64898/2026.06.04.729967", url: "https://doi.org/10.64898/2026.06.04.729967" },
       { title: "Integrative systems biology framework discovers common gene regulatory signatures in mechanistically distinct inflammatory skin diseases", journal: "npj Syst Biol Appl", year: "2025", doi: "10.1038/s41540-025-00498-x", url: "https://doi.org/10.1038/s41540-025-00498-x" },
       { title: "Transcriptional circuitry atlas of genetic diverse unstimulated murine and human macrophages define disparity in population-wide innate immunity", journal: "Scientific Reports", year: "2021", doi: "10.1038/s41598-021-86742-w", url: "https://doi.org/10.1038/s41598-021-86742-w" },

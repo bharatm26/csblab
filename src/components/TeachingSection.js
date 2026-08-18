@@ -11,7 +11,6 @@ const INSTITUTIONS = [
         title: "Introduction to Computational Genomics",
         credits: "3 cr",
         terms: "Fa2025",
-        enrollment: "30 enrolled, 25 active",
         type: "regular",
         url: "https://github.com/GBCF-Bioinformatics-ND/ND_ICG_FA2025",
         description:
@@ -23,7 +22,6 @@ const INSTITUTIONS = [
         title: "Topics in Biocomputing: Seminar",
         credits: "2 cr",
         terms: "Sp2026",
-        enrollment: "24 enrolled, 10 active",
         type: "regular",
         description:
           "Reproducible Biological Data Analysis and Emerging Technologies. Surveys best-practice guidelines across genomics, transcriptomics, single-cell, and spatial data analysis, culminating in AI/ML reproducibility challenges.",
@@ -34,7 +32,6 @@ const INSTITUTIONS = [
         title: "Intro to Biocomputing",
         credits: "3 cr",
         terms: "Fa2026",
-        enrollment: "40 enrolled",
         type: "regular",
         description:
           "Foundational biocomputational skills: Unix Shell, existing software tools, and R scripting for data processing, statistics, modeling, bioinformatics, and machine learning.",
@@ -69,19 +66,16 @@ const INSTITUTIONS = [
         title: "Functional Genomics and Systems Biology",
         credits: "3 cr",
         terms: "Sp2022",
-        enrollment: "30 enrolled, 16 active",
         type: "regular",
         description:
           "Foundation in complex biological genomic data. Covers high-throughput genomics, transcriptomics, proteomics, metabolomics, and basic bioinformatics for systems biology.",
         tags: ["Genomics", "Systems Biology", "Bioinformatics"],
-        eval: "4 / 5 evaluation",
       },
       {
         code: "BY116L / BY123L / BY102L",
         title: "Intro Human Physiology / Intro Biology / Topics Contemporary Bio (Labs)",
         credits: "Lab",
         terms: "Sp2018 – Su2019",
-        enrollment: "~20 per section",
         type: "regular",
         description: "Undergraduate laboratory instruction across core biology, human physiology, and contemporary biology courses.",
         tags: ["Lab Instruction", "Undergraduate"],
@@ -218,14 +212,6 @@ export default function TeachingSection() {
                               <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, color: "rgba(232,237,233,0.45)" }}>{course.terms}</span>
                               <span style={{ width: 3, height: 3, borderRadius: "50%", background: "rgba(232,237,233,0.2)", display: "inline-block" }} />
                               <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, color: "rgba(232,237,233,0.45)" }}>{course.credits}</span>
-                              <span style={{ width: 3, height: 3, borderRadius: "50%", background: "rgba(232,237,233,0.2)", display: "inline-block" }} />
-                              <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, color: "rgba(232,237,233,0.45)" }}>{course.enrollment}</span>
-                              {course.eval && (
-                                <>
-                                  <span style={{ width: 3, height: 3, borderRadius: "50%", background: "rgba(232,237,233,0.2)", display: "inline-block" }} />
-                                  <span style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, color: "#fbbf24" }}>{course.eval}</span>
-                                </>
-                              )}
                             </div>
                           </div>
                           <div style={{ display: "flex", alignItems: "center", gap: 8, flexShrink: 0 }}>

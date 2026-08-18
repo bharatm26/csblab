@@ -26,6 +26,9 @@ export default function ResearchSection() {
                 <div style={{ width: 52, height: 52, borderRadius: 14, background: `${r.color}18`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 26, marginBottom: 20 }}>{r.icon}</div>
                 <h3 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 18, marginBottom: 10 }}>{r.title}</h3>
                 <p style={{ color: "rgba(232,237,233,0.55)", fontSize: 14.5, lineHeight: 1.65, fontFamily: "'DM Sans', sans-serif" }}>{r.desc}</p>
+                {r.image && (
+                  <img src={r.image} alt={r.title} style={{ width: "100%", borderRadius: 12, marginTop: 16, objectFit: "contain" }} />
+                )}
                 {r.articles && (
                   <ul style={{ marginTop: 16, paddingLeft: 18, color: "#d9f99d", fontSize: 13 }}>
                     {r.articles.map((a, j) => (
