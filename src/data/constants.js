@@ -66,7 +66,7 @@ export const RESEARCH_THEMES = [
   {
     icon: "🤖",
     title: "Multi-omics and AI-Enabled Systems Biology",
-    desc: "We integrate multiomics data using machine learning, dynamic modeling, and network frameworks across organisms from microbes, plants, and animals to uncover the hidden pattern and emergent properties for biological resilience.",
+    desc: "We integrate multiomics data using machine learning, dynamic modeling, and network frameworks across organisms from microbes, plants, and animals to uncover the hidden pattern and emergent properties for biological resilience. A core feature of our framework is its generalizability across species and kingdoms. We have applied the same network biology to discover conserved gene regulatory signatures in human inflammatory skin diseases, identify CD2-expressing innate lymphoid cells as major effectors, characterize SARS-CoV-2 pathogenesis and Plant Immunity, Aging, and Stress.",
     color: "#84cc16",
     articles: [
       { title: "Multi-Omics Integration Predicts Cell-Specific Gene Regulatory Response and Rhizosphere Dynamics in Maize Root Fertilizer Treatment", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.08.16.744839", url: "https://doi.org/10.64898/2026.08.16.744839" },
