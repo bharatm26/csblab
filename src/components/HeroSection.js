@@ -28,7 +28,7 @@ export default function HeroSection() {
           </Reveal>
           <Reveal delay={0.2}>
             <p className="hero-lead" style={{ fontSize: 19, lineHeight: 1.7, color: "rgba(232,237,233,0.72)", maxWidth: 560, marginBottom: 40, fontWeight: 300 }}>
-              We combine AI, systems biology, and multi-omics data to understand how diseases work in plants and animals — advancing food security, healthcare, and healthy aging.
+              The Computational Systems Biology Lab (CSBLab) investigates how gene regulatory networks govern plant stress responses at cellular resolution and how root transcriptional programs interface with the rhizosphere microbiome. We integrate bulk and single-cell transcriptomics, chromatin accessibility, metagenomics, and in silico perturbation modeling across Arabidopsis, rice, and maize, and develop open computational resources for the plant single-cell genomics community.
             </p>
           </Reveal>
           <Reveal delay={0.3}>
