@@ -45,13 +45,6 @@ const TOOLS = [
     status: "available",
   },
   {
-    title: "MAGmutome",
-    desc: "A workflow for reconstructing metagenome-assembled genomes (MAGs) and profiling their mutational landscape to study microbial evolution and adaptation.",
-    tags: ["Metagenomics", "MAGs", "Microbial Evolution"],
-    status: "available",
-    collab: { name: "GoswamiLab", url: "https://goswamilab.squarespace.com/" },
-  },
-  {
     title: "Xenium 5k Squidpy",
     desc: "Analysis pipeline for 10x Xenium 5k spatial transcriptomics data using Squidpy — covering spatial gene expression, cell-cell interaction, and neighborhood analysis.",
     tags: ["Spatial Transcriptomics", "Xenium", "Squidpy"],
