@@ -1,7 +1,6 @@
 export const SECTION_LINKS = [
   { label: "Home", target: "Home" },
   { label: "Research", target: "Research" },
-  { label: "Detailed Areas", target: "DetailedResearch" },
   { label: "Impact", target: "Impact" },
   { label: "Team", target: "Team" },
   { label: "Teaching", target: "Teaching" },
