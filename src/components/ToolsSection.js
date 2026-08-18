@@ -49,6 +49,7 @@ const TOOLS = [
     desc: "A workflow for reconstructing metagenome-assembled genomes (MAGs) and profiling their mutational landscape to study microbial evolution and adaptation.",
     tags: ["Metagenomics", "MAGs", "Microbial Evolution"],
     status: "available",
+    collab: { name: "GoswamiLab", url: "https://goswamilab.squarespace.com/" },
   },
   {
     title: "Xenium 5k Squidpy",
@@ -104,6 +105,12 @@ export default function ToolsSection() {
                       <span key={j} style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 11, fontWeight: 600, background: "rgba(134,239,172,0.1)", color: "#86efac", padding: "3px 10px", borderRadius: 20 }}>{tag}</span>
                     ))}
                   </div>
+                  {tool.collab && (
+                    <p style={{ marginTop: 14, fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: "rgba(232,237,233,0.5)" }}>
+                      In collaboration with{" "}
+                      <a href={tool.collab.url} target="_blank" rel="noopener noreferrer" style={{ color: "#bbf7d0", textDecoration: "underline" }}>{tool.collab.name}</a>
+                    </p>
+                  )}
                   {tool.url && (
                     <a href={tool.url} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: 6, marginTop: 18, fontFamily: "'DM Sans', sans-serif", fontSize: 13, fontWeight: 600, color: "#bbf7d0", textDecoration: "none" }}>
                       {tool.label} →
