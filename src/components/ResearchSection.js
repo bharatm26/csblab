@@ -27,7 +27,9 @@ export default function ResearchSection() {
                 <h3 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 700, fontSize: 18, marginBottom: 10 }}>{r.title}</h3>
                 <p style={{ color: "rgba(232,237,233,0.55)", fontSize: 14.5, lineHeight: 1.65, fontFamily: "'DM Sans', sans-serif" }}>{r.desc}</p>
                 {r.image && (
-                  <img src={r.image} alt={r.title} style={{ width: "100%", borderRadius: 12, marginTop: 16, objectFit: "contain" }} />
+                  <div style={{ marginTop: 20, borderRadius: 14, overflow: "hidden", background: "#ffffff", padding: "12px", boxShadow: "0 4px 24px rgba(0,0,0,0.4)" }}>
+                    <img src={r.image} alt={r.title} style={{ width: "100%", display: "block", borderRadius: 8, objectFit: "contain", imageRendering: "auto" }} />
+                  </div>
                 )}
                 {r.articles && (
                   <ul style={{ marginTop: 16, paddingLeft: 18, color: "#d9f99d", fontSize: 13 }}>
