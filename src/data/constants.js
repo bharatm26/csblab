@@ -41,7 +41,7 @@ export const RESEARCH_THEMES = [
   {
     icon: "�",
     title: "Plant Regulatory Genomics",
-    desc: "We build multi-context gene regulatory and protein interaction networks for plants — from Arabidopsis to non-model crops — tackling the core gap that no ENCODE-scale regulatory map exists outside Arabidopsis. Our iDREM dynamic modeling, network centrality, and pySCENIC-based inference toolkit directly address species-specific regulatory inference from sparse data.",
+    desc: "We reconstruct gene regulatory networks from bulk transcriptomics, single-cell RNA-seq, scATAC-seq, and proteomics to identify master transcription factors governing stress responses. Using dynamic modeling, centrality-based prioritization (including weighted k-shell decomposition), and in silico perturbation, we identify causal regulators and predict the consequences of their loss.",
     color: "#4ade80",
     articles: [
       { title: "Multi-Omics Integration Predicts Cell-Specific Gene Regulatory Response and Rhizosphere Dynamics in Maize Root Fertilizer Treatment", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.08.16.744839", url: "https://doi.org/10.64898/2026.08.16.744839" },
@@ -55,7 +55,7 @@ export const RESEARCH_THEMES = [
   {
     icon: "🔬",
     title: "Single-Cell and Spatial Genomics",
-    desc: "We bring single-cell and spatial transcriptomics to plant and crop systems — leveraging Visium and Xenium platforms already running at GBCF, combined with our scRNA-seq analytical toolkit. The goal: cell-type-resolved regulatory maps where bulk-tissue methods see only averaged signal.",
+    desc: "We want to revolutionize the single-cell and spatial genomics to plant and crop systems by leveraging existing resources and developing new tools, frameworks, and resources to better serve the Plant Biology community. We are developing CAMBIUM (in development) — a modular framework for plant single-cell GRN analysis, orthology mapping, regulon transfer, cross-species integration, in silico perturbation, and cell-cell communication.",
     color: "#86efac",
     articles: [
       { title: "Integrative Omics and Network Biology Reveal Transcriptional Changes of Amino Acid Transport in Arabidopsis Susceptibility to Pseudomonas syringae", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.03.25.714176", url: "https://doi.org/10.64898/2026.03.25.714176" },
@@ -66,7 +66,7 @@ export const RESEARCH_THEMES = [
   {
     icon: "🤖",
     title: "Multi-omics and AI-Enabled Systems Biology",
-    desc: "We integrate transcriptomic, proteomic, and interaction data across organisms — from SARS-CoV-2 to inflammatory skin disease to rhizosphere bacteria — using machine learning, dynamic modeling, and network frameworks to uncover shared regulatory logic and prioritize targets that no single data type reveals alone.",
+    desc: "We integrate multiomics data using machine learning, dynamic modeling, and network frameworks across organisms from microbes, plants, and animals to uncover the hidden pattern and emergent properties for biological resilience.",
     color: "#84cc16",
     articles: [
       { title: "Multi-Omics Integration Predicts Cell-Specific Gene Regulatory Response and Rhizosphere Dynamics in Maize Root Fertilizer Treatment", journal: "bioRxiv", year: "2026", doi: "10.64898/2026.08.16.744839", url: "https://doi.org/10.64898/2026.08.16.744839" },

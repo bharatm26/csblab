@@ -5,7 +5,7 @@ import { STATS } from "../data/constants";
 
 export default function StatsBar() {
   return (
-    <section style={{ borderTop: "1px solid rgba(255,255,255,0.06)", borderBottom: "1px solid rgba(255,255,255,0.06)", padding: "48px clamp(20px,6vw,80px)" }}>
+    <section style={{ borderTop: "1px solid rgba(255,255,255,0.06)", borderBottom: "1px solid rgba(255,255,255,0.06)", padding: "28px clamp(20px,6vw,80px)" }}>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: 32, maxWidth: 900, margin: "0 auto", textAlign: "center" }}>
         {STATS.map((s, i) => (
           <Reveal key={i} delay={i * 0.1}>

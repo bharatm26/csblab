@@ -47,37 +47,6 @@ export default function ResearchSection() {
         </div>
       </section>
 
-      {/* ===== PIPELINE VISUAL ===== */}
-      <section style={{ padding: "60px clamp(20px,6vw,80px) 100px", maxWidth: 1200, margin: "0 auto" }}>
-        <Reveal>
-          <div style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.06)", borderRadius: 24, padding: "48px 40px", overflow: "hidden" }}>
-            <div style={{ textAlign: "center", marginBottom: 40 }}>
-              <div className="section-label">Our Approach</div>
-              <h3 style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 24, fontWeight: 700 }}>From Samples to Solutions</h3>
-            </div>
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12, flexWrap: "wrap" }}>
-              {[
-                { emoji: "🧫", label: "Biological Samples" },
-                { emoji: "→", label: "" },
-                { emoji: "🧬", label: "Sequencing" },
-                { emoji: "→", label: "" },
-                { emoji: "💻", label: "Computation & AI" },
-                { emoji: "→", label: "" },
-                { emoji: "📈", label: "Systems Insights" },
-                { emoji: "→", label: "" },
-                { emoji: "🌍", label: "Real-World Impact" },
-              ].map((s, i) => s.label === "" ? (
-                <span key={i} style={{ fontSize: 24, color: "rgba(255,255,255,0.15)", fontFamily: "'DM Sans'" }}>→</span>
-              ) : (
-                <div key={i} style={{ textAlign: "center", minWidth: 100 }}>
-                  <div style={{ fontSize: 36, marginBottom: 8, animation: `float ${2 + i * 0.3}s ease-in-out infinite` }}>{s.emoji}</div>
-                  <div style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 12, fontWeight: 600, color: "rgba(232,237,233,0.6)", letterSpacing: "0.04em" }}>{s.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </Reveal>
-      </section>
     </>
   );
 }

@@ -2,19 +2,10 @@ import React, { useState } from "react";
 import Reveal from "./Reveal";
 import { PUBLICATIONS } from "../data/constants";
 
-const FILTERS = ["All", "Plant Systems", "Multi-omics", "AI & Modeling", "Methods", "Biomedical"];
-
 export default function PublicationsSection() {
-  const [publicationFilter, setPublicationFilter] = useState("All");
-  const [showAllPublications, setShowAllPublications] = useState(false);
+  const [showAll, setShowAll] = useState(false);
 
-  const filteredPublications = publicationFilter === "All"
-    ? PUBLICATIONS
-    : PUBLICATIONS.filter((p) => p.category === publicationFilter);
-
-  const visiblePublications = showAllPublications
-    ? filteredPublications
-    : filteredPublications.slice(0, 6);
+  const visible = showAll ? PUBLICATIONS : PUBLICATIONS.slice(0, 6);
 
   return (
     <section id="Publications" style={{ padding: "100px clamp(20px,6vw,80px)", background: "rgba(255,255,255,0.015)" }}>
@@ -22,29 +13,12 @@ export default function PublicationsSection() {
         <Reveal><div className="section-label">Publications</div></Reveal>
         <Reveal delay={0.05}><h2 className="section-title">Recent Work</h2></Reveal>
         <Reveal delay={0.08}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 16, flexWrap: "wrap", marginTop: 28 }}>
-            <div style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: "rgba(232,237,233,0.48)", letterSpacing: "0.08em", textTransform: "uppercase" }}>
-              {filteredPublications.length} papers in {publicationFilter}
-            </div>
-            <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-              {FILTERS.map((filter) => (
-                <button
-                  type="button"
-                  key={filter}
-                  className={`pub-filter ${publicationFilter === filter ? "active" : ""}`}
-                  onClick={() => {
-                    setPublicationFilter(filter);
-                    setShowAllPublications(false);
-                  }}
-                >
-                  {filter}
-                </button>
-              ))}
-            </div>
+          <div style={{ fontFamily: "'DM Sans', sans-serif", fontSize: 13, color: "rgba(232,237,233,0.48)", letterSpacing: "0.08em", textTransform: "uppercase", marginTop: 28 }}>
+            {PUBLICATIONS.length} papers · chronological
           </div>
         </Reveal>
         <div style={{ display: "flex", flexDirection: "column", gap: 16, marginTop: 40 }}>
-          {visiblePublications.map((p, i) => (
+          {visible.map((p, i) => (
             <Reveal key={i} delay={i * 0.08}>
               <div
                 className="pub-card"
@@ -78,11 +52,11 @@ export default function PublicationsSection() {
             </Reveal>
           ))}
         </div>
-        {filteredPublications.length > 6 && (
+        {PUBLICATIONS.length > 6 && (
           <Reveal delay={0.2}>
             <div style={{ textAlign: "center", marginTop: 28 }}>
-              <button className="btn-outline" style={{ padding: "10px 18px", fontSize: 13 }} onClick={() => setShowAllPublications((current) => !current)}>
-                {showAllPublications ? "Show Featured Set" : `Show All ${filteredPublications.length}`}
+              <button className="btn-outline" style={{ padding: "10px 18px", fontSize: 13 }} onClick={() => setShowAll((v) => !v)}>
+                {showAll ? "Show Featured Set" : `Show All ${PUBLICATIONS.length}`}
               </button>
             </div>
           </Reveal>
