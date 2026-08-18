@@ -53,9 +53,9 @@ function App() {
       <ResearchSection />
       <ImpactSection />
       <TeamSection />
+      <PublicationsSection />
       <TeachingSection />
       <ToolsSection />
-      <PublicationsSection />
       <NewsSection />
       <FunStuffSection />
       <JoinUsSection />
