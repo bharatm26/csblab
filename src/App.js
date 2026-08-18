@@ -8,6 +8,7 @@ import ImpactSection from "./components/ImpactSection";
 import TeamSection from "./components/TeamSection";
 import PublicationsSection from "./components/PublicationsSection";
 import TeachingSection from "./components/TeachingSection";
+import ToolsSection from "./components/ToolsSection";
 import NewsSection from "./components/NewsSection";
 import FunStuffSection from "./components/FunStuffSection";
 import JoinUsSection from "./components/JoinUsSection";
@@ -53,6 +54,7 @@ function App() {
       <ImpactSection />
       <TeamSection />
       <TeachingSection />
+      <ToolsSection />
       <PublicationsSection />
       <NewsSection />
       <FunStuffSection />

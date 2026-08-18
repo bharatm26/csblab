@@ -4,6 +4,7 @@ export const SECTION_LINKS = [
   { label: "Impact", target: "Impact" },
   { label: "Team", target: "Team" },
   { label: "Teaching", target: "Teaching" },
+  { label: "Tools", target: "Tools" },
   { label: "Publications", target: "Publications" },
   { label: "News", target: "News" },
   { label: "Fun Stuff", target: "Fun Stuff" },
